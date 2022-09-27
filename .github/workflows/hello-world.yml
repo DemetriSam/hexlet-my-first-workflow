@@ -4,4 +4,4 @@ jobs:
   build:
     runs-on: ubunti-latest
     steps:
-      run: make say-hello
+      - run: make say-hello
