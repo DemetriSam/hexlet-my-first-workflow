@@ -2,7 +2,6 @@ name: hello-world
 on: push
 jobs:
   build:
-    runs-on: ubunti-latest
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - run: make say-hello
